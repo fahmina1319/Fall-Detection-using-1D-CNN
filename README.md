@@ -1,1 +1,4 @@
 # Fall-Detection-using-1D-CNN
+
+Here we want to develop a 1D-CNN model in PyTorch to detect falls using the provided [dataset](https://userweb.cs.txstate.edu/~hn12/data/SmartFallDataSet/SmartFall/). The dataset contains 3-axis accelerometer data from a wrist-worn smartwatch. The dataset is split into training and testing sets (files `SmartFall Training.csv` and `SmartFall Testing.csv`). Each CSV file contains four columns. The first three columns are the X, Y, and Z accelerometer readings, and the last column is the label (0 for non-fall and 1 for fall). The data is sampled at  31.25 Hz, and each file contains data from multiple users performing various activities and simulated falls. Each row of the CSV file represents a time step and contains 3 accelerometer readings and the corresponding label.
+More details about the dataset can be found in this  [paper](https://www.mdpi.com/1424-8220/18/10/3363/pdf).
